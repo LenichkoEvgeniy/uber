@@ -1,0 +1,299 @@
+@media (max-width: 1200px)
+	.menu
+		&_link
+			padding-right: 35px
+			a
+				font-style: 14px
+	.promo
+		&_titel
+			line-height: 70px
+		&_subtitel
+			line-height: 50px
+	.benefist
+		&_item
+			padding: 0 20px 0 15px 
+			margin-bottom: 50px
+		&_text_wrapper
+			width: 280px
+	.mobile
+		&_item 
+			width: 293px
+			height: 257px
+			padding-top: 65px
+			&_titel
+				font-size: 22px
+	.footer
+		&_social
+			width: 260px
+		&_info
+			&_link_big > a
+				font-size: 15px
+				margin-right: 7px
+			&_link_smol > a
+				font-size: 12px
+				margin-right: 10px
+		&_link
+			width: 260px
+@media (max-width: 992px)
+	.menu
+		&_link
+			padding-right: 11px
+			a
+				font-size: 13px
+	.subheader_logo
+		img
+			width: 100%
+		&_descr
+			font-size: 12px
+	.promo
+		&_titel
+			font-size: 50px
+			line-height: 60px
+		&_subtitel
+			font-size: 26px
+		&_descr
+			font-size: 16px
+	.benefist
+		&_item
+			flex-direction: column
+		&_circle
+			margin-bottom: 15px
+	.footer
+		flex-direction: column
+		align-items: center
+		&_social
+			order: 2
+			justify-content: center
+			margin-top: 15px
+		&_info
+			order: 1
+		&_link
+			order: 3
+			margin-top: 15px
+@media (max-width: 768px)
+	.titel
+		font-size: 26px
+	.menu
+		height: 50px
+		&_item
+			justify-content: center
+			align-items: center
+			position: fixed
+			top: 0
+			left: -100%
+			width: 50%
+			height: 100vh
+			flex-direction: column
+			background-color: rgba(0, 0, 0, .8)
+		&_active
+			left: 0
+			transition: 0.6s all
+		&_link
+			border: none
+			list-style-type: none
+			display: flex
+			justify-content: center
+			margin: 5px 0
+			padding: 0
+			width: 90%
+			padding: 5px 0
+			a
+				display: block
+				font-size: 20px
+				width: 100%
+				text-align: center
+	.hamburger
+		display: block
+		position: absolute
+		top: 50%
+		right: 10px
+		transform: translateY(-50%)
+		width: 26px
+		height: 12px
+		span
+			display: block
+			height: 2px
+			width: 100%
+			background-color: #fff
+			margin-bottom: 2px
+			transition: 0.6s all
+		&_active
+			span
+				&:nth-child(1)
+					transform: translateY(3px) rotate(-45deg)
+					margin-bottom: -2px
+				&:nth-child(2)
+					display: none
+				&:nth-child(3)
+					transform: translateY(3px) rotate(45deg)
+					margin-bottom: -2px
+	.subheader
+		height: 60px
+		&_logo
+			width: 100%
+			margin-top: 10px
+			img
+				width: 100%
+			&_descr
+				display: none
+		&_call
+			display: none
+		&_tel
+			margin-top: -18px
+			text-align: center
+			a
+				font-size: 12px
+				font-weight: 400
+		&_btn
+			display: block
+			width: 150px
+			height: 30px
+			font-size: 12px
+			margin: 0 auto
+	.xs-hidden
+		display: none
+	.xs-visible
+		display: block
+	.promo
+		&_titel
+			font-size: 31px
+    		line-height: 30px
+		&_subtitel
+			font-size: 22px
+			line-height: 30px
+		&_descr
+			font-size: 14px
+			line-height: 22px
+		&_btn
+			width: 210px
+			height: 45px
+			font-size: 15px
+	.benefist
+		padding: 22px 5px 50px 5px
+		&_titel
+			font-size: 26px
+			margin: 15px 0 26px 0
+		&_item
+			margin-bottom: 25px
+		&_text_wrapper
+			width: 100%
+			margin-left: 0
+	.mobile
+		&_item
+			width: 100%
+			height: 215px
+			&_titel
+				font-size: 18px
+	.choice
+		padding: 50px 0 35px 0
+		min-height: 0
+		&_img
+			width: 100%
+	.world
+		&_footer
+			margin-top: 300px
+@media (max-width: 576px)
+	.titel
+		font-size: 16px
+		margin-top: 15px
+		line-height: 13px
+	.subtitel
+		font-size: 14px
+		margin-top: 11px
+	.sm-titel
+		display: none
+	.sm-subtitel
+		display: none
+	.mb35
+		margin-bottom: 22px
+	.menu
+		height: 30px
+		&_item
+			width: 80%
+	.subheader
+		top: 30px
+		padding: 21px 0
+		&_logo_wrp
+			margin-top: -5px
+		&_tel
+			font-size: 12px
+		&_btn
+			width: 110px
+			height: 28px
+			font-size: 10px
+	.promo
+		background-position-y: 30px
+		padding: 112px 0 32px 0
+		min-height: 0
+		&_titel
+			font-size: 30px
+			padding: 0 25px
+			line-height: 40px
+		&_subtitel
+			font-size: 20px
+			font-weight: 700
+			line-height: 25px
+			margin-bottom: 0
+		&_descr
+			display: none
+		&_btn
+			margin-top: 70px
+	.benefist
+		&_item
+			margin-bottom: 22px
+			padding: 0
+			&:nth-child(8)
+				margin-bottom: 0
+		&_titel
+			font-size: 16px
+	.mobile
+		padding: 22px 0 24px 0
+		&_item
+			width: 290px
+			height: 254px
+			padding: 81px 40px 0 28px
+				margin-bottom: 0
+			&_titel
+				font-size: 18px
+	.choice
+		padding: 25px 0 33px 0
+		&_img
+			margin-top: 35px
+			margin-bottom: 23px
+	.conditions
+		padding: 25px 0 26px 0
+		&_block
+			margin-bottom: 30px
+			&:nth-child(4)
+				margin-bottom: 0
+		&_titel
+			font-size: 16px
+		&_list
+			padding-left: 30px
+		&_item_blue
+			font-size: 14px
+			font-weight: 300
+		&_item_red
+			font-size: 14px
+			font-weight: 300
+		&_descr
+			font-size: 14px
+			font-weight: 300
+	.world
+		padding: 25px 0 30px 0
+		&_footer
+			margin-top: 216px
+	.footer
+		&_info
+			width: none
+			&_link
+				&_big
+					a
+						font-size: 14px
+				&_smol
+					flex-wrap: wrap
+					justify-content: space-between
+					a
+						margin: 0 5px
+			&_line
+				width: 60%
